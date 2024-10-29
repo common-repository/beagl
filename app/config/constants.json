@@ -1,0 +1,18 @@
+[
+    {
+        "name" : "BEAGL_PLUGIN_URL",
+        "value": "bgl_plugin_url"
+    },
+    {
+        "name" : "BEAGL_PLUGIN_DIR",
+        "value": "bgl_plugin_dir"
+    },
+    {
+        "name" : "BEAGL_PLUGIN_VERSION",
+        "value": "1.0.1"
+    },
+    {
+        "name" : "BEAGL_DASHBOARD_WIDGET",
+        "value": "bgl_dashboard_widget"
+    }
+]

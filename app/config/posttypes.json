@@ -1,0 +1,14 @@
+[
+	{
+		"slug": "beagl-form",
+		"singular": "form",
+		"plural": "forms",
+		"public": false
+	},
+	{
+		"slug": "beagl-entry",
+		"singular": "entry",
+		"plural": "entries",
+		"public": false
+	}
+]

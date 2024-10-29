@@ -1,0 +1,43 @@
+[
+	{
+		"tag": "admin_print_styles-toplevel_page_beagl",
+		"function_to_add": "beagl\\misc\\chore\\builder_page_styles"
+	},
+	{
+		"tag": "admin_print_scripts-toplevel_page_beagl",
+		"function_to_add": "beagl\\misc\\chore\\builder_page_scripts"
+	},
+	{
+		"tag": "admin_enqueue_scripts",
+		"function_to_add": "beagl\\misc\\chore\\admin_styles"
+	},
+	{
+		"tag": "admin_menu",
+		"priority": 20,
+		"function_to_add": "beagl\\misc\\chore\\admin_custom_links"
+	},
+	{
+		"tag": "init",
+		"function_to_add": "beagl\\misc\\chore\\cors"
+	},
+	{
+		"tag": "init",
+		"function_to_add": "beagl\\misc\\gutenberg\\register_block"
+	},
+	{
+		"tag": "enqueue_block_editor_assets",
+		"function_to_add": "beagl\\misc\\gutenberg\\enqueue_block_editor_assets"
+	},
+	{
+		"tag": "activated_plugin",
+		"function_to_add": "beagl\\misc\\chore\\activation_redirect"
+	},
+	{
+		"tag": "admin_init",
+		"function_to_add": "beagl\\misc\\dashboard\\widget_init"
+	},
+	{
+		"tag": "parse_request",
+		"function_to_add": "beagl\\misc\\formpages\\handle_request"
+	}
+]

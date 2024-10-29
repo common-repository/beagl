@@ -1,0 +1,10 @@
+[
+	{
+		"page_title": "Beagl forms",
+		"menu_title": "Beagl forms",
+		"capability": "manage_options",
+		"menu_slug": "beagl",
+		"function": "beagl\\misc\\chore\\builder_page",
+		"icon_url": "bgl_logo_url"
+	}
+]

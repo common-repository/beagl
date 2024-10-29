@@ -1,0 +1,5 @@
+[
+	"{{ BEAGL_PLUGIN_DIR }}/app/src/misc",
+	"{{ BEAGL_PLUGIN_DIR }}/app/src/api",
+	"{{ BEAGL_PLUGIN_DIR }}/app/src/rest"
+]

@@ -1,0 +1,98 @@
+[
+	{
+		"namespace": "beagl",
+		"route": "forms",
+		"args": {
+			"methods": "GET",
+			"callback": "beagl\\rest\\forms\\get"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "forms",
+		"args": {
+			"methods": "DELETE",
+			"callback": "beagl\\rest\\forms\\delete"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "forms",
+		"args": {
+			"methods": "POST",
+			"callback": "beagl\\rest\\forms\\post"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "entries",
+		"args": {
+			"methods": "GET",
+			"callback": "beagl\\rest\\forms\\update_entries_count"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "entries",
+		"args": {
+			"methods": "DELETE",
+			"callback": "beagl\\rest\\entries\\delete"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "form/(?P<id>\\d+)",
+		"args": {
+			"methods": "GET",
+			"callback": "beagl\\rest\\form\\get"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "form/(?P<id>\\d+)",
+		"args": {
+			"methods": "PATCH",
+			"callback": "beagl\\rest\\form\\save"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "form/(?P<id>\\d+)/uploads",
+		"args": {
+			"methods": "POST",
+			"callback": "beagl\\rest\\uploads\\post"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "form/(?P<id>\\d+)/entries",
+		"args": {
+			"methods": "POST",
+			"callback": "beagl\\rest\\entries\\post"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "form/(?P<id>\\d+)/entries",
+		"args": {
+			"methods": "GET",
+			"callback": "beagl\\rest\\entries\\get"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "notification",
+		"args": {
+			"methods": "POST",
+			"callback": "beagl\\rest\\notification\\post"
+		}
+	},
+	{
+		"namespace": "beagl",
+		"route": "entry/(?P<id>\\d+)/",
+		"args": {
+			"methods": "GET",
+			"callback": "beagl\\rest\\entry\\get"
+		}
+	}
+]

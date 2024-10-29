@@ -1,0 +1,13 @@
+.beagl-dashboard-widget{
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+}
+
+.beagl-dashboard-widget > .beagl-logo{
+	margin: 30px 0 0 0;
+}
+
+.beagl-dashboard-widget > .beagl-widget-buttons{
+	margin: 0 0 20px 0;
+}

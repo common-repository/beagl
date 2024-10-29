@@ -1,0 +1,32 @@
+.bgl-single-form{
+  position: fixed;
+  top: 100px;
+  bottom: 150px;
+  left: 0;
+  right: 0;
+  overflow: auto;
+}
+
+.bgl-single-form-wrapper{
+  width: 900px;
+  margin: 0 auto;
+}
+
+.footer-logo{
+  position: absolute;
+  bottom: 50px;
+  width: 100px;
+  cursor: pointer;
+  left: 50%;
+  margin-left: -50px;
+
+  filter: grayscale(1);
+}
+
+.footer-logo img{
+  width: 100%;
+}
+
+.footer-logo:hover{
+  filter: grayscale(0);
+}
